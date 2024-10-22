@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/Crop Details.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- ------font---- -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- -------- font awesome------- -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+      <nav class="container-fluid navbar navbar-expand-lg bg-success navbar-h">
+        <div class="container">
+          <a class="navbar-brand logo" href="#"><i class="fa-solid fa-wheat-awn"><span>Agro</span></i></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="far-guid.html">Farming Guides</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active act-bg" href="crop.html">Crop Details</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pest.html">Pest Control</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+              
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-body-white btn-sc" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+      <!-- -------------nav end------------- -->
+
+      <!--Crop Details-->
+  <section class="crop-details">
+    <h1 class="h1">Crop Details</h1>
+    
+    <div class="major-categories">
+        <h2>Major Crop Categories</h2>
+        <div class="category-grid">
+            <div class="category-card">
+                <img src="img/C1.png" alt="Grains">
+                <h3>Grains</h3>
+                <p>Explore various grain crops and their cultivation techniques.</p>
+                <button>View Grains</button>
+            </div>
+            <div class="category-card">
+                <img src="img/C2.png" alt="Fruits">
+                <h3>Fruits</h3>
+                <p>Discover fruit crops and their growing requirements.</p>
+                <button>View Fruits</button>
+            </div>
+            <div class="category-card">
+                <img src="img/C3.png" alt="Vegetables">
+                <h3>Vegetables</h3>
+                <p>Learn about various vegetable crops and their cultivation methods.</p>
+                <button>View Vegetables</button>
+            </div>
+            <div class="category-card">
+                <img src="img/C4.png" alt="Cash Crops">
+                <h3>Cash Crops</h3>
+                <p>Explore high-value cash crops and their market potential.</p>
+                <button>View Cash Crops</button>
+            </div>
+        </div>
+    </div>
+
+
+    <!--Product Details-->
+    <div class="grain-details">
+      <br>
+        <h2 class="h1">Grains</h2>
+        <div class="grain-grid">
+            <div class="grain-card">
+                <img src="img/G1.png" alt="Wheat">
+                <div class="grain-info">
+                    <h3>Wheat</h3>
+                    <p>One of the most widely grown cereal grains worldwide.</p>
+                    <ul>
+                        <li><strong>Soil Requirement:</strong> Well-drained loamy soil</li>
+                        <li><strong>Growing Season:</strong> Cool season crop</li>
+                        <li><strong>Harvesting:</strong> When grain is dry and hard</li>
+                    </ul>
+                    <button>Full Details</button>
+                </div>
+            </div>
+            <div class="grain-card">
+                <img src="img/G2.png" alt="Rice">
+                <div class="grain-info">
+                    <h3>Rice</h3>
+                    <p>The primary food source for a large part of the world's population.</p>
+                    <ul>
+                        <li><strong>Soil Requirement:</strong> Clay soil with good water retention</li>
+                        <li><strong>Growing Season:</strong> Varies by region and variety</li>
+                        <li><strong>Harvesting:</strong> When grains are mature and golden yellow</li>
+                    </ul>
+                    <button>Full Details</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ------------------------footer section---------------- -->
+
+<footer>
+  <div>
+      <p>Copyright © IFDC 2024 | Privacy Policy</p>
+  </div>
+</footer>
+
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

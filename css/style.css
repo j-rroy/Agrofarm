@@ -1,0 +1,218 @@
+html,body{
+    font-family: "Poppins", sans-serif !important;
+}
+header{
+    background-color: rgb(25, 135, 84);
+
+}
+
+.navbar-h{
+    padding: 20px !important;
+    position: fixed !important;
+    z-index: 99;
+    box-shadow: 2px 0px 10px;
+}
+.logo i{
+    color: #78b843;
+    font-size: 25px;
+}
+.logo span{
+    /* color: green; */
+    font-size: 20px;
+    /* font-weight: bold !important; */
+    letter-spacing: 2px;
+
+}
+.nav-item{
+    padding: 0px !important;
+    margin: 0px !important;
+    /* gap: 70px !important; */
+}
+.nav-item a{
+    color: white;
+}
+.act-bg{
+    color: rgb(255, 255, 255) !important;
+    /* border: 1px solid white !important; */
+    border-radius: 20px !important;
+    padding: 5px 8px !important;
+    background-color: rgb(120, 184, 67) !important;
+    font-weight: bold !important;
+}
+.btn-sc{
+    background-color: rgb(120, 184, 67) !important;
+
+    color: white !important;
+}
+.btn-sc:hover{
+    background-color: rgb(17, 94, 58) !important;
+
+}
+.c-height{
+    height: 700px;
+    margin-bottom: 20px;
+}
+
+
+/* --------------- article section----------- */
+.article-main{
+    width: 100%;
+    /* height: 500px; */
+    padding: 40px 8%;
+    display: flex;
+    justify-content: center;
+    margin-left: 0 auto;
+    gap: 30px;
+    /* border: 2px solid black; */
+    background-color: #78b843;
+    color: white;
+    margin-bottom: 30px;
+}
+.article-l{
+    width: 50%;
+}
+.article-l img{
+    height: 300px;
+    box-shadow: 4px 4px 10px black;
+
+} 
+
+.article-r{
+    width: 50%;
+    display: block;
+    padding-left: 5%;
+}
+.article-r div img{
+    height: 300px;
+    margin-bottom: 20px;
+    box-shadow: 4px 4px 10px black;
+
+}
+
+/* --------------- article end----------- */
+
+/* ------------------ about section ---------- */
+
+.about-main{
+    width: 100%;
+    display: flex;
+    padding: 40px;
+    /* border: 2px solid black; */
+    background-color: rgb(72, 120, 186);
+    margin-bottom: 30px;
+}
+.about-l{
+    width: 50%;
+    color: white;
+    
+}
+.about-l p{
+    margin-bottom: 40px;
+}
+.about-r{
+    width: 50%;
+    display: flex;
+    /* gap: 20px; */
+    display: flex;
+    justify-content: space-around;
+    /* border: 2px solid ; */
+    /* background-color: #78b843; */
+    padding: 10px 0px;
+    /* box-shadow: 0px 0px 10px; */
+}
+.about-r img{
+    /* height: 400px; */
+    width: 40%;
+    box-shadow: 4px 4px 10px ;
+}
+
+/* ------------------ about end ---------- */
+
+/* ------------------ footer-------------- */
+
+footer{
+    width: 100%;
+    height: 80px;
+    background-color: #78b843;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer div p{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+/* ------------------------------------Farming guide page star-- */
+
+
+.fe-he{
+    padding-top: 100px;
+}
+.fe-box{
+    background-color: rgb(240, 253, 244);
+    padding: 40px 10%;
+    /* display: flex; */
+    justify-content: space-evenly;
+    
+}
+.fe-box h2{
+    margin-bottom: 40px;
+    display: block;
+}
+.fe-box-fl{
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: #78b843; */
+}
+.card-1{
+    width:30%;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 0px;
+    padding: 10px;
+    background-color: #78b843;
+    color: white;
+
+
+}
+.card-1 div img{
+    width: 100%;
+}
+.card-1 div h4{
+    margin: 10px 0px;
+}
+.btn-rg{
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    /* border-radius: 15px; */
+    /* font-size: 14px; */
+    padding: 5px 10px;
+}
+.btn-rg:hover{
+    background-color: #639738;
+    color: white;
+    transition: .3s;
+}
+
+/* step by step  */
+
+.st-body{
+    background-color: rgb(120, 184, 67);
+    border: 1px solid rgb(199, 199, 199);
+    padding: 50px 10%;
+    color: aliceblue;
+    margin-bottom: 30px;
+}
+.st-body h4{
+    margin-bottom: 20px;
+}
+.st-body p{
+    border-bottom: 1px solid rgb(199, 199, 199);
+    margin-bottom: 50px;
+    padding-bottom: 10px;
+
+}
+
+
